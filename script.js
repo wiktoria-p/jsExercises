@@ -40,7 +40,7 @@
 // const test = document.querySelector('div')
 // console.log(test);
 
-// const p = document.querySelector('p')
+// const p = document.querySelector('div p#test')
 // console.log(p);
 
 // const ulList= document.querySelector('ul')
@@ -76,4 +76,13 @@
 // constbtn2= document.querySelector('.btn2')
 // btn1.addEventListener('click', function() {
     // console.log('liczękliknięcia');
+// })
+
+// const input = document.querySelector('input')
+// const underText = document.getElementsByClassName('text-under-input')
+
+// input.addEventListener('keydown', exp => {
+//     if (exp.key === 'enter' ) {
+//         underText.innerHTML = input.value
+//     }
 // })
